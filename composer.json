@@ -18,7 +18,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fuel\\Cache": "src/"
+			"Fuel\\Cache\\": "src/"
 		}
 	},
 	"minimum-stability": "dev"
