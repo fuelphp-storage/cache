@@ -1,8 +1,7 @@
 {
 	"name": "fuelphp/cache",
-	"type": "library",
-	"description": ".",
-	"keywords": ["Cache"],
+	"description": "FuelPHP cache library",
+	"keywords": ["cache"],
 	"homepage": "https://github.com/fuelphp/cache",
 	"license": "MIT",
 	"authors": [
@@ -15,10 +14,12 @@
 		"php": ">=5.3.3"
 	},
 	"require-dev": {
-		"mockery/mockery": "0.7.*"
+		"codeception/codeception": "~2.0.0"
 	},
 	"autoload": {
-		"psr-4": { "Fuel\\Cache": "src/" }
+		"psr-4": {
+			"Fuel\\Cache": "src/"
+		}
 	},
 	"minimum-stability": "dev"
 }

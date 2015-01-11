@@ -1,1 +1,1 @@
-# FuelPHP Cache library.
+# Fuel Cache
