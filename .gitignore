@@ -1,19 +1,23 @@
-.DS_Store
-vendor
-coverage
-cache
+tests/_output/
+vendor/
 composer.lock
-*~
-*.bak
-Thumbs.db
-desktop.ini
+composer.phar
+index.php
+
+### IDE ###
 .buildpath
 .project
 .settings
 nbproject/
-.idea
+.idea/
 *.tmproj
 *.sublime-project
 *.sublime-workspace
-index.php
-tests/_output/*
+
+### Cache, temp, etc ###
+.DS_Store
+cache/
+*~
+*.bak
+Thumbs.db
+desktop.ini
